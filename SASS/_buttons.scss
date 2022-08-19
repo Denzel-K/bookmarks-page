@@ -1,0 +1,33 @@
+%btn {
+    padding: 8px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    word-spacing: 4px;;
+
+    &:hover {
+        cursor: pointer;
+        padding: 6px 18px;
+    }
+}
+.btn_primary {
+    @extend %btn;
+    background-color: hsl(231, 69%, 60%);
+}
+.btn_primary:hover {
+    border: 2px solid hsl(231, 69%, 60%);
+    background-color: white;
+    color: hsl(231, 69%, 60%);
+}
+.btn_warning {
+    @extend %btn;
+    background-color: hsl(0, 94%, 66%);
+}
+.btn_warning:hover {
+    border: 2px solid hsl(0, 94%, 66%);
+    background-color: white;
+    color: hsl(0, 94%, 66%);
+}
