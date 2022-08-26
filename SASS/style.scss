@@ -391,14 +391,13 @@ main {
             margin: auto;
             align-self: center;
             padding: 10px;
-            box-shadow: 0 0 10px 2px hsl(229, 8%, 60%);
-            border-radius: 10px;
 
             .faq {
                 display: flex;
                 flex-direction: column;
-                border-bottom: 1px solid gray;
+                border-bottom: 1.5px solid gray;
                 position: relative;
+                background-color: mintcream;
 
                 .question, .answer {
                     padding: 0 10px;
