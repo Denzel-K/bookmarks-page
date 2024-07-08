@@ -24,11 +24,9 @@ a:hover {
 }
 li {
     list-style: none;
-    
-    @media (max-width: 1480px) {
-        display: inline-block;
-        margin: 0 22px;
-    }
+    display: inline-block;
+    margin: 0 22px;
+
     @media (max-width: 560px) {
         display: block;
         margin: 8px 0;
@@ -36,28 +34,25 @@ li {
 }
 
 nav ul li:nth-child(1) {
-    @media (max-width: 1480px) {
-        border-bottom: 2px solid white;
-        padding-bottom: 4px;
-    }
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+
     &:hover {
         border-bottom: 2px solid hsl(0, 94%, 66%);
     }
 }
 nav ul li:nth-child(2) {
-    @media (max-width: 1480px) {
-        border-bottom: 2px solid white;
-        padding-bottom: 4px;
-    }
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+
     &:hover {
         border-bottom: 2px solid hsl(0, 94%, 66%);
     }
 }
 nav ul li:nth-child(3) {
-    @media (max-width: 1480px) {
-        border-bottom: 2px solid white;
-        padding-bottom: 4px;
-    }
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+
     &:hover {
         border-bottom: 2px solid hsl(0, 94%, 66%);
     }
@@ -90,20 +85,16 @@ body {
     opacity: 0.9;
 }
 .tab_links ul {
-    @media (max-width: 1480px) {
-        li {
-            display: inline-block;
-            padding: 12px 6px;
-            border-bottom: 2px solid grey;
+    li {
+        display: inline-block;
+        padding: 12px 6px;
+        border-bottom: 2px solid grey;
+        color:hsl(229, 31%, 30%);
+        font-weight: 600;
 
-            a {
-                color:hsl(229, 31%, 30%);
-                font-weight: 600;
-            }
-            a:hover {
-                color:  hsl(0, 94%, 66%);
-                opacity: 1;
-            }
+        &:hover {
+            color:  hsl(0, 94%, 66%);
+            opacity: 1;
         }
     }
     @media (max-width: 560px) {
@@ -150,18 +141,17 @@ body {
     cursor: pointer;
 }
 .foot_log li{
-    @media (max-width: 1480px) {
-        display: inline-block;
-        
-        a {
-            color: white;
-            opacity: 0.7;
-        }
-        a:hover {
-            color:  hsl(0, 94%, 66%);
-            opacity: 1;
-        }
+    display: inline-block;
+    
+    a {
+        color: white;
+        opacity: 0.7;
     }
+    a:hover {
+        color:  hsl(0, 94%, 66%);
+        opacity: 1;
+    }
+
     @media (max-width: 560px) {
         display: block;
         margin: 14px;
